@@ -1,0 +1,69 @@
+.bookings-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.bookings-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.booking-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0px 10px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.booking-title-percentage{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0664a8;
+}
+
+
+.booking-dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 2px 20px 2px;
+}
+
+.visuals-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bookings-calendar{
+    transform: scale(1.05);
+}
+
+.react-calendar__tile.marked {
+    background-color: #0664a8;
+    color: black;
+}
+
+.chart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    width: 600px;
+}

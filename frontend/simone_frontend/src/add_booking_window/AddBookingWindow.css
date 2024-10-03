@@ -1,0 +1,38 @@
+.add-booking-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.add-booking-title {
+    text-align: center;
+    margin: 15px;
+}
+
+.add-booking-table {
+    width: 100%;
+}
+
+.add-booking-info-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.add-booking-info-value{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.add-booking-value-background{
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.value-text{
+    margin: 10px;
+    padding: 10px;
+}

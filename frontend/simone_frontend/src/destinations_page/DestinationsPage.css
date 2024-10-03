@@ -1,0 +1,212 @@
+.destinations-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to right, #00CAF6, #437DD5,  #3F3CCC);
+    min-height: 100vh;
+}
+
+.date-picker-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+
+.calendar{
+    margin-top: 10%;
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+
+
+.rdrDateRangePickerWrapper,
+.rdrDateRangeWrapper {
+    transform: scale(1.03);
+}
+
+
+.cards-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.card {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    min-height: 230px;
+    height: auto;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+}
+
+.card-description {
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.destination-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+.destination-attribute-location {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.destination-attribute {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+
+.destination-attribute-icon{
+    transform: scale(0.6);
+}
+
+.book-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price{
+    margin-top: 5%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.price-night{
+    color: #0664a8;
+}
+
+.offers{
+    margin-top: auto;
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.offer-icon{
+    transform: scale(0.8);
+}
+
+.destination-button{
+    margin-top: 15%;
+    width: 70%;
+    background-color: #0664a8;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter-button{
+    float: right;
+    background-color: white;
+    color: #0664a8;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.offers-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.offer-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0px 0px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.offer-title-percentage{
+    margin: 2px 10px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0664a8;
+}
+
+
+.offer-dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 2px 20px 2px;
+}
+
+.offer-selected {
+    background-color: #d0d0d0;
+}
+
+
+.admin-add-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.admin-add-buttons button{
+    background-color: white;
+    color: #0664a8;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3%;
+    width: 130px;
+}
+
+
+.location{
+    margin-top: 20px;
+    color: #f3f3f3;
+    font-size: 18px;
+}

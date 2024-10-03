@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navigation-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    height: 80px;
+}
+
+.content-container {
+    margin-top: 80px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.app-home-container{
+    position: fixed;
+    width: 100vw;
+}
+
+.app-contact-container{
+    position: fixed;
+    width: 100vw;
+}
+
+
+.app-login-container{
+    position: fixed;
+    width: 100vw;
+}

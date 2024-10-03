@@ -1,0 +1,61 @@
+.contact-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-image: url('/public/images/home_background.avif');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.contact-overlay {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 50, 200, 0.55);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    width: 35%;
+    padding: 10px 0px 20px;
+}
+
+.contact-title {
+    text-align: center;
+    color: #000000;
+    margin: 15px;
+}
+
+.contact-table {
+    width: 100%;
+}
+
+.contact-info-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-info-value{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-value-background{
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.value-text{
+    margin: 10px;
+    padding: 10px;
+}
